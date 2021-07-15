@@ -26,9 +26,7 @@ class SimTest{
 	}catch(Exception e){// otherwise remind them and stop
 	    System.err.println("Usage: java SimTest <int #transactions>");
 	    return;
-	}
-
-	
+	}	
 	SimTest st = new SimTest(); // create a new simulation and start it up
 	st.go(Integer.parseInt(args[0]));
  }
@@ -61,7 +59,6 @@ class SimTest{
 	// display some performance metrics
 	System.out.println("Xacts: "+Xacts+"\t Elapsed time: "+totalWait+"\t Ave wait: "+totalWait/Xacts);
  }
-
 
  // randT()
  // utility function - generates 1, 2 or 3 (random uniform, hopefully)
