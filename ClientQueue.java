@@ -1,6 +1,3 @@
-package assignment2;
-//Name `: Ryan Ling
-//ID	: 1350127
 public class ClientQueue {
 	
 		//Declare the variables
@@ -20,8 +17,7 @@ public class ClientQueue {
 			last.next = c;
 			//Set the last item equal to current item
 			last = c;
-		}
-		
+		}	
 	}
 	
 	//Create the method that removes the head of the queue
@@ -50,8 +46,7 @@ public class ClientQueue {
 		}catch(Exception e) {
 			//Print out the error message
 			System.out.println(e);
-		}
-		
+		}	
 	}
 	
 	//Return the values of ARRIVE Time of the head of the queue
@@ -79,8 +74,7 @@ public class ClientQueue {
 		else {
 			//Return the time use
 			return first.useTime;
-		}
-		
+		}	
 	}
 	
 	//True if the first item is empty
@@ -115,8 +109,7 @@ public class ClientQueue {
 			arrTime = arr;
 			useTime = use;
 		}
-		
-		
+			
 		//Get the variables
 		public Client getClient() {
 			return next;
