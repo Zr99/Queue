@@ -1,5 +1,3 @@
-package assignment2;
-
 //SimTest () - M/M/1 simulation [uniform]
 //
 //Starting from an empty queue, simulate a single-queue, single-server system where
