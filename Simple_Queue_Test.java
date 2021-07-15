@@ -1,5 +1,3 @@
-package assignment2;
-
 public class SimpleQTest {
 	public static void main(String [] args){
 		ClientQueue cq1 = new ClientQueue();
